@@ -31,13 +31,19 @@
                 grid-template-columns: repeat(4, 1fr);
                 gap: 10px;
             }
+            .bt{
+                padding: 12px 12px;
+                font-size: 16px;
+                border: none;
+                background-color: white
+            }
             .button {
-                padding: 20px;
-                font-size: 1.5em;
+                padding: 10px;
+                font-size: 16px;
                 background-color: white;
                 color: white;
                 border: none;
-                border-radius: 5px;
+                border-radius: 1px;
                 cursor: pointer;
                 transition: background-color 0.3s;
             }
@@ -54,23 +60,23 @@
         <div class="calculatore">
             <input type="text" id="display" disabled/>
             <div class="buttons">
-                <div class="button" onclick="appendValue('1')"><button border="0">1</button></div>
-                <div class="button" onclick="appendValue('2')"><button border="0">2</button></div>
-                <div class="button" onclick="appendValue('3')"><button border="0">3</button></div>
-                <div class="button" onclick="cleardisplay()"><button border="0">C</button></div>
-                <div class="button" onclick="appendValue('4')"><button border="0">4</button></div>
-                <div class="button" onclick="appendValue('5')"><button border="0">5</button></div>
-                <div class="button" onclick="appendValue('6')"><button border="0">6</button></div>
-                <div class="button" onclick="appendValue('+')"><button border="0">+</button></div>
-                <div class="button" onclick="appendValue('7')"><button border="0">7</button></div>
-                <div class="button" onclick="appendValue('8')"><button border="0">8</button></div>
-                <div class="button" onclick="appendValue('9')"><button border="0">9</button></div>
-                <div class="button" onclick="appendValue('-')"><button border="0">-</button></div>
-                <div class="button" onclick="appendValue('0')"><button border="0">0</button></div>
-                <div class="button" onclick="appendValue('.')"><button border="0">.</button></div>
-                <div class="button" onclick="appendValue('*')"><button border="0">*</button></div>
-                <div class="button" onclick="appendValue('/')"><button border="0">/</button></div>
-                <div class="button" onclick="calculate() "><button border="0">=</button></div>
+                <div class="button" onclick="appendValue('1')"><button class="bt">1</button></div>
+                <div class="button" onclick="appendValue('2')"><button class="bt">2</button></div>
+                <div class="button" onclick="appendValue('3')"><button class="bt">3</button></div>
+                <div class="button" onclick="cleardisplay()"><button class="bt">C</button></div>
+                <div class="button" onclick="appendValue('4')"><button class="bt">4</button></div>
+                <div class="button" onclick="appendValue('5')"><button class="bt">5</button></div>
+                <div class="button" onclick="appendValue('6')"><button class="bt">6</button></div>
+                <div class="button" onclick="appendValue('+')"><button class="bt">+</button></div>
+                <div class="button" onclick="appendValue('7')"><button class="bt">7</button></div>
+                <div class="button" onclick="appendValue('8')"><button class="bt">8</button></div>
+                <div class="button" onclick="appendValue('9')"><button class="bt">9</button></div>
+                <div class="button" onclick="appendValue('-')"><button class="bt">-</button></div>
+                <div class="button" onclick="appendValue('0')"><button class="bt">0</button></div>
+                <div class="button" onclick="appendValue('.')"><button class="bt">.</button></div>
+                <div class="button" onclick="appendValue('*')"><button class="bt">*</button></div>
+                <div class="button" onclick="appendValue('/')"><button class="bt">/</button></div>
+                <div class="button" onclick="calculate() "><button class="bt">=</button></div>
                 
             </div>
         </div>
